@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background-color: blue;
+
+}
+h1 {
+  margin-top: 0;
+  font-size: 3em;
+  text-align: left;
+  text-shadow: 2px 2px 2px #000000;
+
+}
+#wrapper {
+  background-color: #eeeeee;
+  color: 006600;
+  min-width: 960px;
+  font-family: Verdna,Arial,sans-serif;
+}
+header{
+  color: #cc66cc;
+  background-color: #636631;
+  border-bottom: 2px solid #000;
+  text-align: right;
+  height: 120px;
+  background-image: ("showybg.jpg");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  padding: 0 20px;
+}
