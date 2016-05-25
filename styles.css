@@ -84,8 +84,16 @@ aside {
   width: 200px;
 }
 aside h3 {
+  padding-bottom: 2px;
+  border-bottom: 1px solid #000000;
   margin: 10px;
-  float: right;
+  font-size: .90em;
+  color: #cc66cc;
+  background-color: #eeeeee;
+}
+.floatright {
+  margin: 10px;
+  float:right;
 }
 .news {
   font-size: .80em;
