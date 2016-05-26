@@ -99,6 +99,13 @@ aside h3 {
   font-size: .80em;
   margin: 10px;
 }
+.hir {
+text-indent: 100%;
+white-space: nowrap;
+overflow: hidden;
+display: block;
+}
+
 footer {
   font-size: .70em;
   text-align: center;
@@ -106,4 +113,39 @@ footer {
   background-color: #ffffff;
   padding-top: 10px;
   clear: both;
+}
+ul li a{
+  background: url(sprite.png) no-repeat;
+  display: block;
+  height: 42px;
+}
+.home a {
+  background-position: -10px 0;
+}
+.home a:hover{
+  background-position: -10px -47px;
+}
+.services a {
+  background-position: -131px 0;
+}
+.services a:hover{
+  background-position: -136px -47px;
+}
+.contact a {
+  background-position: -259px 0;
+}
+.contact a:hover{
+  background-position: -265px -47px;
+}
+.fall a{
+  background-position: -10px 0;
+}
+.fall a:hover {
+  background-position: -10px -47px;
+}
+.winter a {
+  background-position: -131px 0;
+}
+.winter a:hover {
+  background-position: -136px -47px; 
 }
